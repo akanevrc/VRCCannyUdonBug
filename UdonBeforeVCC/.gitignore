@@ -79,6 +79,7 @@ crashlytics-build.properties
 
 /[Aa]ssets/**/*
 !/[Aa]ssets/akanevrc/
+!/[Aa]ssets/akanevrc/**/*
 
 /[Pp]ackages/**/*
 !/[Pp]ackages/manifest.json
