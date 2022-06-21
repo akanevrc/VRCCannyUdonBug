@@ -1,5 +1,7 @@
 # VRCCannyUdonBug
 
+This is an example project to reproduce [this canny](https://feedback.vrchat.com/creator-companion-beta/p/prefabs-will-be-broken-when-udonbehavior-before-vcc-is-imported-in-the-environme).
+
 ## Abstraction
 
 Prefabs will be broken when UdonBehavior before VCC is imported in the environment after VCC
@@ -43,7 +45,7 @@ Assets are in `Assets/akanevrc/`.
 - `Assets/akanevrc/UdonSharp`
   - `GameObject` > `Sample Behaviour` > `Udon Behaviour` is `None`
   - `Child` > `Sample Behaviour` is replaced by `GameObject` > `Sample Behaviour`
-  - `Parent` > `GameObject_Prefab` > `Sample Behaviour` is replaced by is replaced by `GameObject` > `Sample Behaviour`
+  - `Parent` > `GameObject_Prefab` > `Sample Behaviour` is replaced by `GameObject` > `Sample Behaviour`
     - This is normal specification of UdonSharp
 
 - `Assets/akanevrc/UdonGraph`
