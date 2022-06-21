@@ -45,7 +45,7 @@ Assets are in `Assets/akanevrc/`.
 - `Assets/akanevrc/UdonSharp`
   - `GameObject` > `Sample Behaviour` > `Udon Behaviour` is `None`
   - `Child` > `Sample Behaviour` is replaced by `GameObject` > `Sample Behaviour`
-  - `Parent` > `GameObject_Prefab` > `Sample Behaviour` is replaced by is replaced by `GameObject` > `Sample Behaviour`
+  - `Parent` > `GameObject_Prefab` > `Sample Behaviour` is replaced by `GameObject` > `Sample Behaviour`
     - This is normal specification of UdonSharp
 
 - `Assets/akanevrc/UdonGraph`
